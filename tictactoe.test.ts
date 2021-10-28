@@ -26,8 +26,6 @@ test('Add X to square', async () => {
     expect(await square.getText()).toContain('X')
     await driver.sleep(2000)
 });
-
-
     
 test('Add X to square', async () => {
     let square = await driver.findElement(By.id('cell-2'));
